@@ -923,11 +923,11 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: #dcdcdc;
 				}
 
 				ul.icons li a:active {
-					background-color: rgba(255, 255, 255, 0.175);
+					background-color: #dcdcdc;
 				}
 
 /* Table */
@@ -1133,14 +1133,14 @@ input, select, textarea {
 		}
 
 		#bg:before {
-			-moz-transition: background-color 2.5s ease-in-out;
-			-webkit-transition: background-color 2.5s ease-in-out;
-			-ms-transition: background-color 2.5s ease-in-out;
-			transition: background-color 2.5s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			-moz-transition: background-color 1.25s ease-in-out;
+			-webkit-transition: background-color 1.25s ease-in-out;
+			-ms-transition: background-color 1.25s ease-in-out;
+			transition: background-color 1.25s ease-in-out;
+			-moz-transition-delay: 0.35s;
+			-webkit-transition-delay: 0.35s;
+			-ms-transition-delay: 0.35s;
+			transition-delay: 0.35s;
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1176,8 +1176,9 @@ input, select, textarea {
 			filter: blur(0.2rem);
 		}
 
+		/* Note: Page load color */
 		body.is-preload #bg:before {
-			background-color: #C0C0C0;
+			background-color: #808080;
 		}
 
 /* Wrapper */
@@ -1366,11 +1367,11 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: #dcdcdc;
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: #dcdcdc;
 					}
 
 		#header nav.use-middle:after {

@@ -1,2 +1,4 @@
 # danielshin.me
-Personal Site
+Just a personal site.
+
+https://www.danielshin.me/
